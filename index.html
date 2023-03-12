@@ -8,22 +8,25 @@
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body>
-    <h1 style="text-align: center">Game được làm bởi Ank</h1>
-    <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=900 height=600></canvas>
-      <div id="unity-loading-bar">
-        <div id="unity-logo"></div>
-        <div id="unity-progress-bar-empty">
-          <div id="unity-progress-bar-full"></div>
+    <div>
+      <div class="header">
+        <p id="name">HIEU's advanture</p>
+      </div>
+      <div id="unity-container" class="unity-desktop">
+        <canvas id="unity-canvas" width=900 height=600></canvas>
+        <div id="unity-loading-bar">
+          <div id="unity-logo"></div>
+          <div id="unity-progress-bar-empty">
+            <div id="unity-progress-bar-full"></div>
+          </div>
+        </div>
+        <div id="unity-warning"> </div>
+        <div id="unity-footer">
+          <div id="unity-webgl-logo"></div>
+          <div id="unity-fullscreen-button"></div>
+          <div id="unity-build-title">Hieu's Advanture</div>
         </div>
       </div>
-      <div id="unity-warning"> </div>
-      <div id="unity-footer">
-        <div id="unity-webgl-logo"></div>
-        <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">Hieu's Advanture</div>
-      </div>
-      <h2 style="text-align: center">Cố mà đủ 100đ đi thg loz</h2>
     </div>
     <script>
       var container = document.querySelector("#unity-container");
